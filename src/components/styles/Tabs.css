@@ -1,0 +1,124 @@
+.tabs-container {
+    display: flex;
+    border: 1px solid rgba(219, 225, 232, 1);
+    width: auto !important;
+    height: 72px;
+    border-radius: 36px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 32px;
+    padding: 24px 32px;
+    margin-right: 10px;
+    width: auto;
+    color: rgb(10, 37, 64, 1);
+}
+
+.tab.active {
+    color: #ffffff;
+    background-color: rgba(10, 37, 64, 1);
+    /* Background color for active tab */
+}
+
+.font-size-60-percent {
+    font-size: 60% !important;
+}
+
+.font-size-70-percent {
+    font-size: 70% !important;
+}
+
+.font-size-80-percent {
+    font-size: 80% !important;
+}
+
+.font-size-85-percent {
+    font-size: 85% !important;
+}
+
+.font-size-90-percent {
+    font-size: 90% !important;
+}
+
+@media (max-width: 575px) {
+    body {
+        font-size: 80% !important;
+    }
+
+    .font-size-60-percent {
+        font-size: 85% !important;
+    }
+
+    .font-size-70-percent {
+        font-size: 90% !important;
+    }
+
+    .font-size-80-percent {
+        font-size: 95% !important;
+    }
+
+    .font-size-85-percent {
+        font-size: 100% !important;
+    }
+
+    .font-size-90-percent {
+        font-size: 100% !important;
+    }
+
+    .small {
+        font-size: 95% !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body {
+        font-size: 60%;
+    }
+
+    .font-size-60-percent {
+        font-size: 85% !important;
+    }
+
+    .font-size-70-percent {
+        font-size: 90% !important;
+    }
+
+    .font-size-80-percent {
+        font-size: 95% !important;
+    }
+
+    .font-size-85-percent {
+        font-size: 100% !important;
+    }
+
+    .font-size-90-percent {
+        font-size: 100% !important;
+    }
+
+    .small {
+        font-size: 95% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 60%;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 1366px) {
+    body {
+        font-size: 90%;
+    }
+}
