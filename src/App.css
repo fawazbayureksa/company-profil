@@ -121,6 +121,11 @@
     margin-left: -200px;
   }
 
+  .img-messaging-section-2 {
+    height: 481px;
+    width: auto;
+  }
+
 
   .section-1 {
     position: relative;
@@ -154,6 +159,14 @@
   /* Color */
   .color-0a2540 {
     color: rgb(10, 37, 64, 1) !important;
+  }
+
+  .font-weight-700 {
+    font-weight: 700 !important;
+  }
+
+  .font-weight-400 {
+    font-weight: 400 !important;
   }
 
   /* Button */
